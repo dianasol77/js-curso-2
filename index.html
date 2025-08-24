@@ -18,5 +18,32 @@
     </main>
 
       <script src="app.js"></script>
+    // cambiar el contenido de la etiqueta h1
+    document.queryselector("h1).textcontent = "Hora del desafio" ;
+    function showConsoleMessage() {
+            console.log("El botón fue clicado");
+        }
+
+        function showAlert() {
+            alert("Yo amo JS");
+        }
+
+        function showCityPrompt() {
+            const city = prompt("¿Cuál es el nombre de una ciudad de Brasil?");
+            if (city) {
+                alert("Estuve en " + city + " y me acordé de ti");
+            }
+        }
+
+        function performSum() {
+            const num1 = parseFloat(prompt("Introduce el primer número:"));
+            const num2 = parseFloat(prompt("Introduce el segundo número:"));
+            if (!isNaN(num1) && !isNaN(num2)) {
+                alert("La suma es: " + (num1 + num2));
+            } else {
+                alert("Por favor, introduce números válidos.");
+            }
+        }
+    </script>
 </body>
 </html>
